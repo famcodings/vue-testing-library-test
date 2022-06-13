@@ -1,6 +1,6 @@
 // import library of unit testing library
 import { render } from "@testing-library/vue";
-import HelloWorld from "../components/HelloWorld.vue";
+import HelloWorld from "src/components/HelloWorld.vue";
 
 // The case of unit testing for check render msg
 test("Check if render props msg text in HelloWorld", async () => {
